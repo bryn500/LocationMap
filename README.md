@@ -10,10 +10,10 @@ Wrapper for loading google map and updating locations
 <script src="https://maps.google.com/maps/api/js"></script>
 
 @* Optional https://github.com/googlemaps/js-marker-clusterer *@
-<script src="~/_common/js/vendor/markerclusterer.js"></script>    
+<script src="markerclusterer.js"></script>    
 
 @* The Script *@
-<script src="~/_common/js/app/modules/locationMap.js"></script>
+<script src="locationMap.js"></script>
 
 <script>
     (function () {
