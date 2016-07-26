@@ -4,7 +4,7 @@ Wrapper for loading google map and updating locations
 ## Example use
 
 ```html
-<div id="mapCanvas" style="height:360px; width: 100%; max-width: 400px;"></div>
+<div id="googleMap" style="height:360px; width: 100%; max-width: 400px;"></div>
 
 @* Required *@
 <script src="https://maps.google.com/maps/api/js"></script>
@@ -42,7 +42,7 @@ Wrapper for loading google map and updating locations
             var data = getLocations();
 
             if (locationMap === undefined) {
-                locationMap = new LocationMap(document.getElementById('mapCanvas'));
+                locationMap = new LocationMap(document.getElementById('googleMap'));
             }
 
             locationMap.load(data);
